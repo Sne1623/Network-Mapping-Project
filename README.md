@@ -3,8 +3,16 @@
 **Author:** Sinenhlanhla Khumalo  
 
 ---
+## 1. Introduction
+This report documents my home network setup and demonstrates connectivity testing using basic networking commands (`ipconfig` and `ping`).  
+The purpose of this report is to:  
+- Map the network layout from my device to the internet  
+- Identify key network details such as IP address, subnet mask, and default gateway  
+- Verify internal and external connectivity  
+- Demonstrate understanding of TCP/IP, routing, and DNS
 
-## 1. Network Layout
+  ---
+## 2. Network Layout
 The diagram below shows my home network setup, illustrating the connection from my laptop to the router and the internet:
 
 <img width="1408" height="768" alt="DIAGRAM" src="https://github.com/user-attachments/assets/c8833814-1522-459e-b238-8fd20f6a6d48" />
@@ -14,7 +22,7 @@ The diagram below shows my home network setup, illustrating the connection from 
 
 ---
 
-## 2. Device Details
+## 3. Device Details
 - **Host Device:** Windows Laptop  
 - **Local IP Address:** 172.20.6.88  
 - **Subnet Mask:** 255.255.254.0  
@@ -26,7 +34,7 @@ The diagram below shows my home network setup, illustrating the connection from 
 
 ---
 
-## 3. Connectivity Test Results
+## 4. Connectivity Test Results
 
 ### Ping to Router (Internal)
 Tested connection to my default gateway:
@@ -44,7 +52,7 @@ Tested internet connectivity:
 
 ---
 
-## 4. Observations & Conclusion
+## 5. Observations & Conclusion
 - The network is fully functional, with **low latency** to the router (1ms) and **stable internet connection** (14–15ms to Google).  
 - DNS resolution is successful, confirming that devices on this network can access the internet reliably.  
 - Overall, the network is **stable and properly configured**, with all devices communicating as expected.  
